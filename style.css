@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  background: #2c3e50;
 }
 .middle {
   position: absolute;
@@ -16,7 +17,7 @@ body {
   margin: 20px;
   border-radius: 50%;
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.115);
-  color: #7868e6;
+  color: #1abc9c;
   overflow: hidden;
   position: relative;
 }
@@ -34,7 +35,7 @@ body {
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #7868e6;
+  background: #42efd4;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
