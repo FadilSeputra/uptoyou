@@ -15,7 +15,7 @@ body {
   height: 90px;
   margin: 20px;
   border-radius: 50%;
-  border-radius: 0 2px 18px rgba(0, 0, 0, 0.115);
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.115);
   color: #7868e6;
   overflow: hidden;
   position: relative;
@@ -38,6 +38,11 @@ body {
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
+}
+btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
 }
 @keyframes aaa {
   0% {
